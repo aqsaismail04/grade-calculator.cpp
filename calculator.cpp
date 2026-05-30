@@ -1,8 +1,8 @@
-//name: AQSA ISMAIL
-// Roll No: L1F25BSCS0055
-//SECTION: B17
-//ASSIGNMENT 2:  GRADE CALCULATOR
-//SUBJECT: PF
+// Project: Grade Calculator
+// Course: Programming Fundamentals (PF)
+// Developer: Aqsa Ismail
+// GitHub: github.com/aqsaismail04
+
 #include<iostream>
 #include<fstream>
 
