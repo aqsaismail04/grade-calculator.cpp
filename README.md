@@ -64,6 +64,8 @@ Class Average = 72.5
 ```bash
 g++ main.cpp -o output
 ./output
-👩‍💻 Author
 
-Aqsa Ismail | GitHub | LinkedIn
+---
+
+## 👩‍💻 Author
+**Aqsa Ismail** | [GitHub](https://github.com/aqsaismail04) | [LinkedIn](https://www.linkedin.com/in/aqsaismail04/)
