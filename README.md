@@ -1,5 +1,4 @@
-<h1 align="center">📊 Grade Calculator (C++ File Handling Project)</h1>
-
+<h1 align="center">📊 Grade Calculator</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
@@ -8,38 +7,35 @@
 
 ---
 
-## 👩‍💻 Author
-**Aqsa Ismail**
-
----
-
 ## 📌 Overview
-A C++ program that reads student names and marks from a file, calculates the average of five test scores, assigns a grade based on the average, and writes the formatted results to an output file.
+
+Reads student names and test scores from a file, calculates averages, assigns grades, and writes results to an output file.
 
 ---
 
 ## ⚙️ Features
-- Reads student data from `data.txt`
-- Stores marks using arrays
-- Calculates average of 5 test scores
-- Assigns grades (A, B, C, D, F)
-- Writes formatted results to `output.txt`
-- Computes class average
-- Uses modular functions
+
+| Feature | Description |
+|---------|-------------|
+| 📂 File Input | Reads student data from `data.txt` |
+| 🧮 Average | Calculates average of 5 test scores |
+| 🎯 Grading | Assigns A/B/C/D/F based on average |
+| 📤 File Output | Writes formatted results to `output.txt` |
+| 📊 Class Average | Computes overall class average |
 
 ---
 
 ## 🧠 Concepts Used
-- Arrays  
-- Functions  
-- File Handling (`ifstream`, `ofstream`)  
-- Loops  
-- Conditional Statements  
-- Char Arrays  
+
+![Arrays](https://img.shields.io/badge/Arrays-blueviolet?style=for-the-badge)
+![Functions](https://img.shields.io/badge/Functions-orange?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File%20Handling-red?style=for-the-badge)
+![Char Arrays](https://img.shields.io/badge/Char%20Arrays-success?style=for-the-badge)
+![Loops](https://img.shields.io/badge/Loops-blue?style=for-the-badge)
 
 ---
 
-## 📂 Input Format (`data.txt`)
+## 📂 Input File (data.txt)
 Each line should contain:
 
 Name Mark1 Mark2 Mark3 Mark4 Mark5
@@ -49,27 +45,25 @@ Example:
 
 Johnson 85 83 77 91 76
 Aniston 80 90 95 93 48
+Cooper 78 81 11 90 73
 
 
 ---
 
-## 📤 Output
-The program generates `output.txt` containing:
-- Student marks
-- Average
-- Grade
-- Class average
+## 📤 Output Format
+
+Student Test1 Test2 Test3 Test4 Test5 Average Grade
+Johnson 85 83 77 91 76 82.4 B
+Class Average = 72.5
+
 
 ---
 
 ## ▶️ How to Run
-```bash
-g++ main.cpp -o run
-./run
-📁 Files
-main.cpp
-data.txt
-output.txt
-⭐ Status
 
-Completed ✔
+```bash
+g++ main.cpp -o output
+./output
+👩‍💻 Author
+
+Aqsa Ismail | GitHub | LinkedIn
