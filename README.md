@@ -1,132 +1,65 @@
-# 📊 Grade Calculator (C++ File Handling Project)
+<h1 align="center">📊 Grade Calculator</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Course-Programming%20Fundamentals-blue?style=for-the-badge"/>
+</p>
 
-## 📌 Project Overview
-This is a **Grade Calculator program** written in C++ as part of a Programming Fundamentals assignment.
+---
 
-The program reads student names and their 5 test scores from an input file, calculates the average, assigns a grade based on the marks, and writes the results into an output file in a structured format.
+## 📌 Overview
+
+Reads student names and test scores from a file, calculates averages, assigns grades, and writes results to an output file.
 
 ---
 
 ## ⚙️ Features
-- Reads student data from a file (`data.txt`)
-- Stores marks using arrays
-- Calculates average of 5 test scores
-- Assigns grades using conditions:
-  - A → 90–100  
-  - B → 80–89  
-  - C → 70–79  
-  - D → 60–69  
-  - F → Below 60
-- Writes formatted results to `output.txt`
-- Calculates class average
-- Uses modular programming with functions
+
+| Feature | Description |
+|---------|-------------|
+| 📂 File Input | Reads student data from `data.txt` |
+| 🧮 Average | Calculates average of 5 test scores |
+| 🎯 Grading | Assigns A/B/C/D/F based on average |
+| 📤 File Output | Writes formatted results to `output.txt` |
+| 📊 Class Average | Computes overall class average |
 
 ---
 
 ## 🧠 Concepts Used
-- Arrays
-- Functions (void & value-returning)
-- File Handling (`ifstream`, `ofstream`)
-- Loops
-- Conditional statements
-- Char arrays (C-style strings)
+
+![Arrays](https://img.shields.io/badge/Arrays-blueviolet?style=for-the-badge)
+![Functions](https://img.shields.io/badge/Functions-orange?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File%20Handling-red?style=for-the-badge)
+![Char Arrays](https://img.shields.io/badge/Char%20Arrays-success?style=for-the-badge)
+![Loops](https://img.shields.io/badge/Loops-blue?style=for-the-badge)
 
 ---
 
 ## 📂 Input File (data.txt)
-Create a file named `data.txt` in the same folder as your `.cpp` file and add data like this:
 
 Johnson 85 83 77 91 76
 Aniston 80 90 95 93 48
-Cooper 78 81 11 90 73
-Gupta 92 83 30 69 87
-Blair 23 45 96 38 59
-Clark 60 85 45 39 67
-Kennedy 77 31 52 74 83
-Bronson 93 94 89 77 97
-Sunny 79 85 28 93 82
-Smith 85 72 49 75 63
-
-
----
-
-## ▶️ How to Run the Project
-
-### Step 1: Open in IDE
-Open the project in:
-- Code::Blocks OR
-- Visual Studio Code OR
-- Dev C++
-
----
-
-### Step 2: Create Input File
-Create a file named:
-
-data.txt
-
-Paste the input data shown above.
-
----
-
-### Step 3: Compile the Program
-Use this command (if using terminal):
-
-
-g++ filename.cpp -o output
-
-
----
-
-### Step 4: Run the Program
-
-./output
-
-
-OR just click **Run button** in your IDE.
-
----
-
-### Step 5: Output File
-After running, a file will be created automatically:
-
-
-output.txt
-
-
-This file will contain:
-- Student marks
-- Average
-- Grade
-- Class average
+Cooper  78 81 11 90 73
 
 ---
 
 ## 📤 Output Format
-Student Test1 Test2 Test3 Test4 Test5 Average Grade
 
-Johnson 85 83 77 91 76 82.4 B
-...
-Class Average = XX.XX
-
+Student  Test1 Test2 Test3 Test4 Test5 Average Grade
+Johnson  85    83    77    91    76    82.4    B
+Class Average = 72.5
 
 ---
 
-## 🚀 Learning Outcome
-This project helped in understanding:
-- Problem solving using functions
-- File handling in C++
-- Data processing using arrays
-- Structured programming
+## ▶️ How to Run
+
+```bash
+g++ main.cpp -o output
+./output
+```
 
 ---
-
-## 📌 Note
-- No use of STL (string, vector, etc.)
-- Only basic C++ concepts used as per course requirements
 
 ## 👩‍💻 Author
-Name: Aqsa Ismail
-## 🛠️ Built With
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+**Aqsa Ismail** | [GitHub](https://github.com/aqsaismail04) | [LinkedIn](https://www.linkedin.com/in/aqsaismail04/)
